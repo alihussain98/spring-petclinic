@@ -1,4 +1,3 @@
-
 # Instructions
 
 Mohammed Ali Hussain Siddique - 1977772
@@ -13,39 +12,34 @@ Mohammed Ali Hussain Siddique - 1977772
 
 The first argument is the Alt-text for the image. The second argument is the path to the image. Make sure your images are readable and that you save them in a JPG or PNG format.
 
-# Assignment 5 Travis Images
+# HomeWork 8 - Ali Hussain
 
-- 5 pts Your Github account showing that is has been forked from the depaulcdm/springpetclinic repository.
-  ![Forked from DePaulCDM #1](images/1.png)
-- 5 pts Your Travis CI dashboard showing a successful first build.
- ![Successful First Build #2](images/2.png)
-- 5 pts The section of the POM file showing the coordinates after you’ve changed them.
- ![Coordinates Changed #3](images/3.png)
-- 5 pts Your Travis CI dashboard showing a successful build after your change of the group
-ID.
- ![Successful Build After New Coordinates #4](images/4.png)
-- 5 pts The section of the POM file showing the coordinates after you’ve commented them
-out.
- ![Commented Out Coordinates #5](images/5.png)
-- 5 pts Your Travis CI dashboard showing the unsuccessful build after the breaking change.
- ![Unsuccessful Build #6](images/6.png)
-- 5 pts Your Github repository with the readme.md file selected showing the build failed
-status after the Travis CI build fails.
- ![ReadMe Error #7](images/7.png)
-- 5 pts The section of the POM file showing the coordinates after you’ve fixed them.
- ![Fixed Coordinates #8](images/8.png)
-- 5 pts Your Travis CI dashboard showing the successful build after the breaking change has
-been fixed.
- ![FSuccessful Build After Fixing Coordinates #9](images/9.png)
-- 5 pts Your Github repository with the readme.md file selected showing the build success
-status after the Travis CI build has recovered.
- ![Readme Successful #10](images/10.png)
+# (Docker File)
 
+- 5 pts Your dockerfile. Please provide a link to this file rather than a screen capture.
+  ![Dockerfile for the Spring Petclinic Project #1](spring-petclinic/DockerFile)
+- 5 pts Your running docker instance as shown by a ps command.
+  ![Running Docker Instance #2](images/dri.png)
+- 5 pts Your browser accessing the main page of the website from your local container.
+  ![Browser accessing the main page #3](images/web.png)
 
+# (Docker Compose - MYSQL Only)
 
+- 5 pts The output from the docker-compose up command.
+  ![Docker Compose up command #1](images/compose-up-1.png)
+- 5 pts Your browser accessing the “Veterinarians” page of the website from your local con-
+  tainer when you run the application from the host system.
+  ![Vets Page #2](images/vets.png)
+- 5 pts A section of the stack trace generated when you attempt to run the application container that has been updated to use MySQL.
+  ![Stack Trace of Petclinic #3](images/trace.png)
 
+# (Docker Compose - App Server and MYSQL)
 
-
-
-
-
+- 5 pts Your updated docker-compose.yml file containing the application server, built from your local Dockerfile, and the existing MySQL configuration. Please provide a link to this file rather than a screen capture.
+  ![Docker-Compose.yml File #1](images/doc-compose.png)
+- 5 pts Your updated application-mysql.properties file containing the URL change for the database server. Please provide a link to this file rather than a screen capture.
+  ![Application-my-sql.properties #2](images/app.png)
+- 5 pts The output from the docker-compose up command.
+  ![Docker Compose File #3](images/compose-up.png)
+- 5 pts Your browser accessing the “Veterinarians” page of the website from your local con- tainer.
+  ![Browser accessing the Vets Page #3](images/web2.png)
